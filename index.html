@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHD Focus App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ADHD Focus App</h1>
+
+    <div class="pomodoro">
+        <h2>Pomodoro Timer</h2>
+        <p id="timer">25:00</p>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <div class="todo">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="New Task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
